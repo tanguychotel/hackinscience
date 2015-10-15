@@ -1,2 +1,2 @@
-tableau=["Hello world", 42]
-print tableau[0],tableau[1]
+t=["Hellow world", 42]
+print t[0],t[1]
