@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 phantom_menace = """Turmoil has engulfed the Galactic Republic. The\
  taxation of trade routes to outlying star systems is in\
  dispute. Hoping to resolve the matter with a blockade of deadly\
@@ -8,3 +9,7 @@ phantom_menace = """Turmoil has engulfed the Galactic Republic. The\
  peace and justice in the galaxy, to settle the conflict"""
  
 print len(phantom_menace)
+=======
+t=["Hellow world", 42]
+print [t[0],t[1]]
+>>>>>>> 6dfde462d23dbf0f512137ca9f604e8a4aed6952
