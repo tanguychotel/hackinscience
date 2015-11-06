@@ -1,11 +1,6 @@
 import sys
 
 if len(sys.argv) <= 2:
-    print("usage: python3 solution.py PARAM")
+    print("usage: python3 solution.py OP1 OP2")
 else:
-    x=int(sys.argv[1])
-    y=int(sys.argv[2])
-    c = x + y
-    print(c)
-
-   
+    print(int(sys.argv[1]) + int(sys.argv[2]))
