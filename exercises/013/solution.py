@@ -1,1 +1,1 @@
-print(bool([2+2!=5]))
+print(bool([2+2 != 5]))
