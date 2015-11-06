@@ -5,6 +5,7 @@ if len(sys.argv) <= 2:
 else:
     x=int(sys.argv[1])
     y=int(sys.argv[2])
-    print(x + y)
+    c = x + y
+    print(c)
 
    
