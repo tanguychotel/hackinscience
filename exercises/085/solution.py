@@ -13,5 +13,5 @@ def sort_by_mark(my_class):
 
 def sort_by_name(my_class):
     getcount = itemgetter(1)
-    return(c)
     c = (sorted(my_class, key=getcount))
+    return(c)
