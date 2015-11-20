@@ -1,22 +1,16 @@
-def sort_a_list(a):
-    ok = False
-    while ok == False:
-        ok = True
-        for i in range(len(a)-1):
-            if a[i] < a[i+1]:
-                z = a[i]
-                a[i] = a[i+1]
-                a[i+1] = z
-                ok = False
+from operator import itemgetter, attrgetter
+
+
+def sort_a_list(l):
+    a = (sorted(l, reverse = True))
     return(a)
-    print(a)
 
-   
-def sort_a_mark(b):
-    sorted(b, reverse = True)
+def sort_a_mark(my_class):
+    b = (sorted(my_class, reverse = True))
     return(b)
-    print(b)
 
-def sort_by_name(c):
-    
 
+def sort_by_name(my_class):
+    getcount = itemgetter(1)
+    c = (sorted(my_class, key = getcount))
+    return(c)
