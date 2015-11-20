@@ -6,7 +6,7 @@ def sort_a_list(l):
     return(a)
 
 
-def sort_a_mark(my_class):
+def sort_by_mark(my_class):
     b = (sorted(my_class, reverse=True))
     return(b)
 
