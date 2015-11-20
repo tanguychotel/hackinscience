@@ -1,0 +1,22 @@
+def sort_a_list(a):
+    ok = False
+    while ok == False:
+        ok = True
+        for i in range(len(a)-1):
+            if a[i] < a[i+1]:
+                z = a[i]
+                a[i] = a[i+1]
+                a[i+1] = z
+                ok = False
+    return(a)
+    print(a)
+
+   
+def sort_a_mark(b):
+    sorted(b, reverse = True)
+    return(b)
+    print(b)
+
+def sort_by_name(c):
+    
+
