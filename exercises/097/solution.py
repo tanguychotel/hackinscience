@@ -1,10 +1,10 @@
-def love_meet(alice, bob):
+def love_meet(bob, alice):
     alice2 = set(alice)
     bob2 = set(bob)
     return(bob2).intersection(alice)
 
 
-def affair_meet(alice, bob, silvester):
+def affair_meet(bob, alice, silvester):
     alice2 = set(alice)
     bob2 = set(bob)
     silvester2 = set(silvester)
