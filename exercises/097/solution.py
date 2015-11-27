@@ -8,7 +8,7 @@ def affair_meet(alice, bob, silvester):
     alice2 = set(alice)
     bob2 = set(bob)
     silvester2 = set(silvester)
-    c = [val for val in alice2 if val in silvester2]
+    c = (silvester2).intersection(alice2)
     d = [val for val in c if val not in bob2]
     D = set(d)
     return(D)
