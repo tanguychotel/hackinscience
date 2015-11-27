@@ -1,7 +1,7 @@
 import sys
 
 
-L=[]
+L = []
 for i in range(len(sys.argv)):
     L.append(sys.argv[i])
 for v in enumerate(L):

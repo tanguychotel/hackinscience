@@ -1,7 +1,8 @@
 import sys
 
 
-L=[]
+L = []
 for i in range(len(sys.argv)):
     L.append(sys.argv[i])
-print(list(enumerate(L)))
+for v in enumerate(L):
+    print(v)
