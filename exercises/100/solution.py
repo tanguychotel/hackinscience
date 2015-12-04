@@ -8,5 +8,7 @@ station = {
 
 L = list(station.values())
 S = len(L)
+H = list(station.keys())
+T = len(H)
 for i in range(S):
-    print(L[i])
+    print(H[i], L[i])
