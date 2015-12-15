@@ -6,7 +6,7 @@ def check_my_city(city_name):
         if city_name == velib[i]['city']:
             S = S + 1
             l = l + [velib[i]['zip']]
-            k = {'stations_nb': S, 
+            k = {'stations_nb': S,
                  'zip_code': l,
                  'city': city_name}
         elif S == 0:
